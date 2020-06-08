@@ -11,17 +11,15 @@ const IndexPage = () => {
 
   const eatJam = () => {
     setJam(prev => prev - 1)
-    console.log(jam)
   }
   const stackJam = () => {
     setJam(prev => prev + 1)
-    console.log(jam)
   }
 
   return (
     <Layout>
       <SEO title="Home" />
-      <h1>Chill out, it's ok!</h1>
+      <h1>React State</h1>
       <Display jam={jam} eatJam={() => eatJam()} stackJam={() => stackJam()}></Display>
       <Link to="/redux-page/">Page with Redux</Link> <br />
     </Layout>
