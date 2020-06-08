@@ -5,7 +5,7 @@ import Display from "./display"
 
 const mapStateToProps = state => {
   return {
-    jam: state.jamReducer.jam
+    jam: state.jam
   }
 }
 
