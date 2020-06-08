@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Jam-Stacker`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Jam-Stacker is a Gatsby-Redux PWA practise project`,
+    author: `@daniBencz`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `jam-stacker`,
+        short_name: `jam-stacker`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

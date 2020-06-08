@@ -9,10 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Chill out, it's ok!</h1>
-    <div style={{ maxWidth: `100px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Page with Redux</Link> <br />
+    <Link to="/redux-page/">Page with Redux</Link> <br />
   </Layout>
 )
 
