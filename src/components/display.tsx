@@ -1,6 +1,12 @@
 import React from "react"
 
-const Display = ({ jam, eatJam, stackJam }) => {
+interface display_props {
+  jam: number,
+  eatJam: () => void,
+  stackJam: () => void
+}
+
+const Display = ({ jam, eatJam, stackJam }: display_props) => {
 
   return (
     <div>
