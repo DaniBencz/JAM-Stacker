@@ -11,12 +11,12 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
+		stackJam: () => {
+			dispatch(stackAction(1))
+		},
     eatJam: () => {
       dispatch(eatAction(1))
     },
-    stackJam: () => {
-      dispatch(stackAction(1))
-    }
   }
 }
 
