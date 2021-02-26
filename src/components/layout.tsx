@@ -32,7 +32,13 @@ const Layout = ({ children }:JSX.ElementChildrenAttribute) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <main>{children}</main>
+        <main
+         style={{
+            marginBottom: `30px`,
+          }}
+        >
+         {children}
+        </main>
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
